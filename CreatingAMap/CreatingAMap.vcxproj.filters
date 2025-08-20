@@ -15,11 +15,18 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
+    <Text Include="map2.txt" />
     <Text Include="map.txt" />
+    <Text Include="map3.txt" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="arial.ttf">
+      <Filter>Source Files</Filter>
+    </Font>
   </ItemGroup>
 </Project>
