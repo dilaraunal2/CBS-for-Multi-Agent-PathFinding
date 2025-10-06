@@ -235,8 +235,26 @@ Feel free to open an issue for questions or suggestions.
 - [MovingAI](https://movingai.com/benchmarks/) benchmark set for map files
 - Multi-Agent Path Finding researchers
 
+## 📚 Academic Background
 
+This project is based on the seminal paper on Conflict-Based Search:
 
----
+**Sharon, G., Stern, R., Felner, A., & Sturtevant, N. R. (2015).** *Conflict-based search for optimal multi-agent pathfinding.* Artificial Intelligence, 219, 40-66.
+
+### Key Concepts from the Paper
+
+**CBS Algorithm:**
+- Two-level algorithm: high-level constraint tree search and low-level single-agent pathfinding
+- Guarantees optimal solutions for multi-agent pathfinding
+- Generates constraints only when conflicts are detected
+- More efficient than traditional approaches in many scenarios
+
+**Algorithm Performance:**
+- Outperforms A* based approaches on many benchmarks
+- Scalable to dozens of agents in complex environments
+- Particularly effective in structured environments
 
 ⭐ If you like this project, don't forget to give it a star!
+IMAGES FROM THE PROJECT
+<img width="1919" height="1030" alt="image" src="https://github.com/user-attachments/assets/15c5bea4-8fd0-45d2-85b5-dbd1e4715861" />
+<img width="1920" height="1021" alt="image" src="https://github.com/user-attachments/assets/0309408f-0473-49c5-9bbe-163f1c7c0661" />
